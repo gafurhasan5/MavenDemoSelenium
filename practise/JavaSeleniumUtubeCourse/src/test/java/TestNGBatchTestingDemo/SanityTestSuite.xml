@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suit name="SanityTestSuit">
+    <test name="Sanity Testing">
+        <classes>
+            <class name="TestNGBatchTestingDemo.HomeScreenTest"/>
+            <class name="TestNGBatchTestingDemo.LoginTest"/>
+        </classes>
+
+    </test>
+
+</suit>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/code/practise/JavaSeleniumUtubeCourse/src/test/java/TestNGBatchTestingDemo">
+        <classes>
+            <class name="TestNGBatchTestingDemo.HomeScreenTest">
+                <methods>
+                    <include name="LaunchApllication"/>
+                    <include name="VerifyTitle"/>
+                    <include name="VerifyLogo"/>
+                </methods></class><class name="TestNGBatchTestingDemo.LoginTest">
+            <methods><include name="LoginTestByMobileNumber"/>
+                <include name="LoginTestByEmailNumber"/></methods>
+        </class><class name="TestNGBatchTestingDemo.PaymentTest">
+            <methods>
+                <include name="CashOndelivery"/>
+                <include name="Netbanking"/>
+            </methods></class>
+            <class name="TestNGBatchTestingDemo.ProductPageTest">
+                <methods>
+                    <include name="AddProductToWishList"/>
+                    <include name="AddProductToCart"/>
+                    <include name="SelectQuantity"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
