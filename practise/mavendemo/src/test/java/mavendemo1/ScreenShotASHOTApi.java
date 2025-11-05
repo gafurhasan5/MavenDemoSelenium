@@ -17,11 +17,11 @@ public class ScreenShotASHOTApi {
         driver.manage().window().maximize();
         driver.get("https://omayo.blogspot.com/");
         driver.findElement(By.id("alert1")).click();
-        Screenshot screenshot = new AShot().shootingStrategy(shootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
-        ImageIO.write(screenshot.getImage(), "PNG", new File(System.getProperty("user.dir") + "/Screenshot/fullimage.png"));
+        //Screenshot screenshot = new AShot().shootingStrategy(shootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
+        //ImageIO.write(screenshot.getImage(), "PNG", new File(System.getProperty("user.dir") + "/Screenshot/fullimage.png"));
 
     }
 
 
     }
-}
+
