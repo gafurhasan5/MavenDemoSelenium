@@ -21,6 +21,11 @@ public class CalenderHandle {
     }
     public static void SelectDateInCalender(String SelectDay1, String SelectMonth, String SelectYear)
     {
+        if(Integer.parseInt((SelectDay1))>31)
+        {
+            System.out.println("Invalid Data Provided "+SelectDay1+"/"+SelectMonth+"/"+SelectYear);
+            return;
+        }
         String monthYear = driver.findElement(By.className("ui-datepicker-title")).getText();
         //System.out.println(monthYear);
         String month = monthYear.split(" ")[0];
