@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-10T16:17:13 IST" name="Default suite" finished-at="2025-11-10T16:17:26 IST" duration-ms="13070">
+    <groups>
+    </groups>
+    <test started-at="2025-11-10T16:17:13 IST" name="Default test" finished-at="2025-11-10T16:17:26 IST" duration-ms="13070">
+      <class name="Package1.Login1">
+        <test-method signature="LoginWithValidCredentials()[pri:1, instance:Package1.Login1@31304f14]" started-at="2025-11-10T16:17:13 IST" name="LoginWithValidCredentials" finished-at="2025-11-10T16:17:20 IST" duration-ms="6794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+        <test-method signature="LoginWithInValidCredentials()[pri:2, instance:Package1.Login1@31304f14]" started-at="2025-11-10T16:17:20 IST" name="LoginWithInValidCredentials" finished-at="2025-11-10T16:17:26 IST" duration-ms="6220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInValidCredentials -->
+      </class> <!-- Package1.Login1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
