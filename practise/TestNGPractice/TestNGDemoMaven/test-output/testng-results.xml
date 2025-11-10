@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="3" total="9" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-10T16:42:03 IST" name="Default suite" finished-at="2025-11-10T16:42:16 IST" duration-ms="13846">
+  <suite started-at="2025-11-10T17:54:29 IST" name="Suite" finished-at="2025-11-10T17:54:29 IST" duration-ms="70">
     <groups>
     </groups>
-    <test started-at="2025-11-10T16:42:03 IST" name="Default test" finished-at="2025-11-10T16:42:16 IST" duration-ms="13846">
-      <class name="Package1.Login1">
-        <test-method signature="LoginWithValidCredentials()[pri:1, instance:Package1.Login1@31304f14]" started-at="2025-11-10T16:42:03 IST" name="LoginWithValidCredentials" finished-at="2025-11-10T16:42:10 IST" duration-ms="7480" status="PASS">
+    <test started-at="2025-11-10T17:54:29 IST" name="Test" finished-at="2025-11-10T17:54:29 IST" duration-ms="70">
+      <class name="XMLFIleDemo.ClassC">
+        <test-method signature="Cmethod1()[pri:1, instance:XMLFIleDemo.ClassC@1aafa419]" started-at="2025-11-10T17:54:29 IST" name="Cmethod1" finished-at="2025-11-10T17:54:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginWithValidCredentials -->
-        <test-method signature="LoginWithInValidCredentials()[pri:2, instance:Package1.Login1@31304f14]" started-at="2025-11-10T16:42:10 IST" name="LoginWithInValidCredentials" finished-at="2025-11-10T16:42:16 IST" duration-ms="6313" status="PASS">
+        </test-method> <!-- Cmethod1 -->
+        <test-method signature="Cmethod3()[pri:2, instance:XMLFIleDemo.ClassC@1aafa419]" started-at="2025-11-10T17:54:29 IST" name="Cmethod3" finished-at="2025-11-10T17:54:29 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginWithInValidCredentials -->
-      </class> <!-- Package1.Login1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Cmethod3 -->
+        <test-method signature="Cmethod2()[pri:3, instance:XMLFIleDemo.ClassC@1aafa419]" started-at="2025-11-10T17:54:29 IST" name="Cmethod2" finished-at="2025-11-10T17:54:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cmethod2 -->
+      </class> <!-- XMLFIleDemo.ClassC -->
+      <class name="XMLFIleDemo.ClassB">
+        <test-method signature="Bmethod1()[pri:1, instance:XMLFIleDemo.ClassB@a1153bc]" started-at="2025-11-10T17:54:29 IST" name="Bmethod1" finished-at="2025-11-10T17:54:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bmethod1 -->
+        <test-method signature="Bmethod3()[pri:3, instance:XMLFIleDemo.ClassB@a1153bc]" started-at="2025-11-10T17:54:29 IST" name="Bmethod3" finished-at="2025-11-10T17:54:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bmethod3 -->
+      </class> <!-- XMLFIleDemo.ClassB -->
+      <class name="XMLFIleDemo.ClassA">
+        <test-method signature="Amethod2()[pri:2, instance:XMLFIleDemo.ClassA@7cc0cdad]" started-at="2025-11-10T17:54:29 IST" name="Amethod2" finished-at="2025-11-10T17:54:29 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amethod2 -->
+      </class> <!-- XMLFIleDemo.ClassA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
