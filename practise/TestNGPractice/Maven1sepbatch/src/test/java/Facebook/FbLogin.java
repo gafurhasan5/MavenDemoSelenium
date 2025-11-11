@@ -42,7 +42,7 @@ public class FbLogin {
 	@AfterClass
 	public void shutdown()
 	{
-		driver.quit();
+		driver.quit();//Quit
 	}
 
 }
