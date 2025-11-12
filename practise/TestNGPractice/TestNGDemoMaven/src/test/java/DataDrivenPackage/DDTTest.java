@@ -11,7 +11,7 @@ public class DDTTest {
 	
 	WebDriver driver;
 	//@Test(dataProvider="dataGet") here i give method name of data provider
-	@Test(dataProvider="dataGet1") //here i give same name data provider annotation name 
+	@Test(dataProvider="dataGet1",dataProviderClass=SampleDataProvider.class) //here i give same name data provider annotation name 
 	public void login(String email,String Password)
 	{
 		driver=new ChromeDriver();
@@ -27,11 +27,13 @@ public class DDTTest {
 		//Thread.sleep(2000);
 		
 	}
-	@DataProvider(name="dataGet1")
+	/*  this method in separate class
+	  @DataProvider(name="dataGet1")
+	 
 	public String[][] dataGet()
 	{
 		String[][] data = {{"angelatucker13287@suffermail.com","password"},{"Rehankhan56390@gmail.com","Password"},{"Rehankhan56391@gmail.com","Password"}};
 	       return data;
-	}
+	}*/
 
 }

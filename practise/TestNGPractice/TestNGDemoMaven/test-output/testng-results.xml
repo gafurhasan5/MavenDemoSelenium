@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-12T13:26:13 IST" name="Default suite" finished-at="2025-11-12T13:26:37 IST" duration-ms="23547">
+  <suite started-at="2025-11-12T14:47:49 IST" name="Default suite" finished-at="2025-11-12T14:48:06 IST" duration-ms="16618">
     <groups>
     </groups>
-    <test started-at="2025-11-12T13:26:13 IST" name="Default test" finished-at="2025-11-12T13:26:37 IST" duration-ms="23547">
+    <test started-at="2025-11-12T14:47:49 IST" name="Default test" finished-at="2025-11-12T14:48:06 IST" duration-ms="16618">
       <class name="DataDrivenPackage.DDTTest">
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:DataDrivenPackage.DDTTest@71d44a3]" started-at="2025-11-12T13:26:13 IST" name="login" data-provider="dataGet1" finished-at="2025-11-12T13:26:22 IST" duration-ms="8669" status="FAIL">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:DataDrivenPackage.DDTTest@6302bbb1]" started-at="2025-11-12T14:47:49 IST" name="login" data-provider="dataGet1" finished-at="2025-11-12T14:47:55 IST" duration-ms="5893" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -28,9 +28,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.36.0', revision: '6d115cfd87'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f930aee7de729dbdfa0e03db8e568fbc, findElement {using=link text, value=Edit your account information}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\GAHASSAN\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60551}, goog:processID: 24424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60551/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f930aee7de729dbdfa0e03db8e568fbc]]>
+Command: [400c9c27d90988f70e958b884cbfdbc3, findElement {using=link text, value=Edit your account information}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\GAHASSAN\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49315}, goog:processID: 15352, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49315/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 400c9c27d90988f70e958b884cbfdbc3]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Edit your account information"}
@@ -39,9 +39,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.36.0', revision: '6d115cfd87'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f930aee7de729dbdfa0e03db8e568fbc, findElement {using=link text, value=Edit your account information}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\GAHASSAN\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60551}, goog:processID: 24424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60551/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f930aee7de729dbdfa0e03db8e568fbc
+Command: [400c9c27d90988f70e958b884cbfdbc3, findElement {using=link text, value=Edit your account information}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\GAHASSAN\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49315}, goog:processID: 15352, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49315/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 400c9c27d90988f70e958b884cbfdbc3
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -56,7 +56,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at DataDrivenPackage.DDTTest.login(DDTTest.java:25)
+at DataDrivenPackage.DDTTest.login(DDTTest.java:26)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -89,7 +89,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:DataDrivenPackage.DDTTest@71d44a3]" started-at="2025-11-12T13:26:22 IST" name="login" data-provider="dataGet1" finished-at="2025-11-12T13:26:29 IST" duration-ms="7384" status="FAIL">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:DataDrivenPackage.DDTTest@6302bbb1]" started-at="2025-11-12T14:47:55 IST" name="login" data-provider="dataGet1" finished-at="2025-11-12T14:48:00 IST" duration-ms="4991" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -110,9 +110,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.36.0', revision: '6d115cfd87'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bf7d569a7997e56f65bd84814589f8ee, findElement {using=link text, value=Edit your account information}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\GAHASSAN\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52591}, goog:processID: 2756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52591/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bf7d569a7997e56f65bd84814589f8ee]]>
+Command: [f00e6db7cd8d7ab8c0de715489b7772c, findElement {using=link text, value=Edit your account information}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\GAHASSAN\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51273}, goog:processID: 30836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51273/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f00e6db7cd8d7ab8c0de715489b7772c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Edit your account information"}
@@ -121,9 +121,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.36.0', revision: '6d115cfd87'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bf7d569a7997e56f65bd84814589f8ee, findElement {using=link text, value=Edit your account information}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\GAHASSAN\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52591}, goog:processID: 2756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52591/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bf7d569a7997e56f65bd84814589f8ee
+Command: [f00e6db7cd8d7ab8c0de715489b7772c, findElement {using=link text, value=Edit your account information}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\GAHASSAN\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51273}, goog:processID: 30836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51273/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f00e6db7cd8d7ab8c0de715489b7772c
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -138,7 +138,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at DataDrivenPackage.DDTTest.login(DDTTest.java:25)
+at DataDrivenPackage.DDTTest.login(DDTTest.java:26)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -171,7 +171,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:DataDrivenPackage.DDTTest@71d44a3]" started-at="2025-11-12T13:26:29 IST" name="login" data-provider="dataGet1" finished-at="2025-11-12T13:26:37 IST" duration-ms="7417" status="FAIL">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:DataDrivenPackage.DDTTest@6302bbb1]" started-at="2025-11-12T14:48:00 IST" name="login" data-provider="dataGet1" finished-at="2025-11-12T14:48:06 IST" duration-ms="5653" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -192,9 +192,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.36.0', revision: '6d115cfd87'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fdff78513b25ee6b9a198fd2abb20422, findElement {using=link text, value=Edit your account information}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\GAHASSAN\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60722}, goog:processID: 25560, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60722/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fdff78513b25ee6b9a198fd2abb20422]]>
+Command: [54c64cd04c285cb871ad582196953339, findElement {using=link text, value=Edit your account information}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\GAHASSAN\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58715}, goog:processID: 15436, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58715/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 54c64cd04c285cb871ad582196953339]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Edit your account information"}
@@ -203,9 +203,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.36.0', revision: '6d115cfd87'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fdff78513b25ee6b9a198fd2abb20422, findElement {using=link text, value=Edit your account information}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\GAHASSAN\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60722}, goog:processID: 25560, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60722/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fdff78513b25ee6b9a198fd2abb20422
+Command: [54c64cd04c285cb871ad582196953339, findElement {using=link text, value=Edit your account information}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\GAHASSAN\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58715}, goog:processID: 15436, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58715/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 54c64cd04c285cb871ad582196953339
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -220,7 +220,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at DataDrivenPackage.DDTTest.login(DDTTest.java:25)
+at DataDrivenPackage.DDTTest.login(DDTTest.java:26)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
