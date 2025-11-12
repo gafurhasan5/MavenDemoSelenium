@@ -6,8 +6,15 @@
       <class name="Facebook.FbLogin">
         <methods>
           <include name="setup"/>
+          <include name="beforeMethod"/>
+          <include name="password"/>
+          <include name="AfterMethod"/>
+          <include name="AfterSuit"/>
+          <include name="Login"/>
+          <include name="AfterTest"/>
+          <include name="beforeTest"/>
           <include name="shutdown"/>
-          <include name="result"/>
+          <include name="beforeSuit"/>
         </methods>
       </class> <!-- Facebook.FbLogin -->
     </classes>
