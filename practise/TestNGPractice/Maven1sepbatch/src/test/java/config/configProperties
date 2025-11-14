@@ -1,0 +1,16 @@
+# Application level data
+URL=https://tutorialsninja.com/demo/
+
+# search functionality
+validProductName=HP
+
+#  login functionality
+validEmail=vi19970111@fundproceed.com
+validPassword=password
+
+#  register functionality
+
+validFirstName=Gafur
+validLastName=Hassan
+validPhoneNum=123456
+validPass=password
